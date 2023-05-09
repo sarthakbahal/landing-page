@@ -1,3 +1,9 @@
+
+.top{
+    margin: -1em;
+}
+
+
 .head{
     display: flex;
     justify-content: space-between;
@@ -74,6 +80,10 @@ button{
     margin-top: 12px;
 }
 
+.cit img{
+    height: 190px;
+    width: auto;
+}
 
 
 
@@ -115,7 +125,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
-    margin: 15px 0px;
+    margin: 18px 0px;
 
 }
 
@@ -126,6 +136,7 @@ button{
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 50px;
+    margin: -1em;
 }
 
 .aq{
