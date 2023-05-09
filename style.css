@@ -35,4 +35,74 @@ ul{
 .header .tt{
     display: flex;
     flex-direction: column;
+    padding-left: 95px;
+}
+
+.top{
+    background-color: #1F2937;
+}
+
+.ht{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.lt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    
+}
+
+.header .cit{
+    height: 200px;
+    padding-right: 118px;
+}
+
+
+
+
+
+
+
+
+/* this is for the middle section */
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column ;
+    height: fit-content;
+    width: 200px;
+    justify-content: space-between;
+    
+    text-align: center;
+    gap: 10px;
+    padding: 10px 50px;
+   
+}
+
+.title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+
 }
