@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0px 50px;
+    padding:10px 50px;
     margin-bottom: 30px;
     
 }
@@ -21,7 +21,7 @@ ul{
     list-style-type: none ;
     margin: 0;
     padding:0;
-    gap:16px;
+    gap:25px;
 }
 
 
@@ -160,9 +160,27 @@ button{
     background-color:#3882F6 ;
     color: #F9FAF8;
     align-items: center;
+    margin: 50px 150px;
+    padding: 20px 50px ;
 }
 
 .text .call{
     font-size: 20px;
     font-weight: bold;
+}
+
+.box .sign{
+    border: solid #E5E7EB;
+    padding: 6px 9px;
+    border-radius: 20%;
+    border-width: medium;
+}
+
+
+/* for links */
+
+a:link, a:visited{
+    color: #F9FAF8;
+    font-size: 15px;
+    text-decoration: none;
 }
